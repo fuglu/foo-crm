@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>foo crm</title>
+		<script src="https://phone.sipgate.com/static/js/webphone.js"></script>
+	</head>
+	<body>
+		<div id='sipgate-webphone-container' style="height: 600px; width: 400px;"></div>
+		<script>
+			var webphone = new SipgateWebphone();
+			webphone.init({
+				container: document.getElementById('sipgate-webphone-container'),
+				clientId: '2440142-0-5f2e26cd-8746-11e7-8bf4-153a381dc9c3'
+			});
+		</script>
+	</body>
+</html>
